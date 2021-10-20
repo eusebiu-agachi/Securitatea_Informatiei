@@ -130,7 +130,7 @@ def server_program():
         file.write(encryptKey(K, K1))
     file.close()
     with open("K1.txt", 'wb') as file:
-        file.write(K)
+        file.write(K1)
     file.close()
 
     f = open("K.txt", 'rb')
